@@ -46,7 +46,7 @@ color,color_name,hex,R,G,B
 
 🚀 Installation
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/color-detection.git
+git clone https://github.com/SaiRithvik07/color-detection.git
 cd color-detection
 
 2️⃣ Install dependencies
