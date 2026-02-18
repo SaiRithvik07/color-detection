@@ -64,7 +64,7 @@ python color_detection.py -i sample_image.jpg
 
 
 Replace `sample_image.jpg` with your image path.
-
+```
 ---
 
 ## 🖱️ How It Works
