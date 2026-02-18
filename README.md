@@ -63,57 +63,62 @@ pip install opencv-python numpy pandas
 python color_detection.py -i sample_image.jpg
 
 
-Replace sample_image.jpg with your image path.
+Replace `sample_image.jpg` with your image path.
 
-🖱️ How It Works
+---
 
-The image is loaded using OpenCV.
+## 🖱️ How It Works
 
-When the user double-clicks on the image:
+1. The image is loaded using OpenCV.
 
-The RGB values of the clicked pixel are captured.
+2. When the user double-clicks on the image:
+   - The RGB values of the clicked pixel are captured.
+   - The program compares them with all colors in `colors.csv`.
+   - It calculates the minimum distance:
 
-The program compares them with all colors in colors.csv.
-
-It calculates the minimum distance:
 
 d = |R-Ri| + |G-Gi| + |B-Bi|
 
 
-The closest matching color name is displayed.
 
-A colored rectangle appears showing:
+3. The closest matching color name is displayed.
 
-Color Name
+4. A colored rectangle appears showing:
+   - Color Name
+   - RGB Values
 
-RGB Values
+---
 
-🧠 Algorithm Used
+## 🧠 Algorithm Used
 
-The program uses Manhattan Distance to find the closest color match:
+The program uses **Manhattan Distance** to find the closest color match:
 
 distance = |R - Rcsv| + |G - Gcsv| + |B - Bcsv|
 
 
+
 The color with the minimum distance is selected.
 
-📸 Example Output
+---
 
-Double-click on image
+## 📸 Example Output
 
-A color bar appears at the top
+- Double-click on image  
+- A color bar appears at the top  
+- Displays:
 
-Displays:
+
 
 Sky Blue R=135 G=206 B=235
 
-🎯 Future Improvements
 
-Add HEX color display
+---
 
-Convert to HSV color detection
+## 🎯 Future Improvements
 
-Add real-time webcam color detection
+- Add HEX color display  
+- Convert to HSV color detection  
+- Add real-time webcam color detection  
+- Deploy as a web application using Flask  
 
-Deploy as a web application using Flask
 
