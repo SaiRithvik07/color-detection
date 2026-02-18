@@ -1,33 +1,32 @@
-🎨 Color Detection using OpenCV
+# 🎨 Color Detection using OpenCV
 
-A simple and interactive Color Detection Application built using Python, OpenCV, Pandas, and NumPy.
+A simple and interactive **Color Detection Application** built using **Python, OpenCV, Pandas, and NumPy**.  
 This project allows users to double-click on any part of an image to detect the color name along with its RGB values.
 
-📌 Features
+---
 
-Detect color name on double-click
+## 📌 Features
 
-Displays RGB values
+- Detect color name on double-click  
+- Displays RGB values  
+- Matches closest color using minimum distance algorithm  
+- Works with any input image  
+- Handles light colors with automatic text color adjustment  
 
-Matches closest color using minimum distance algorithm
+---
 
-Works with any input image
+## 🛠️ Technologies Used
 
-Handles light colors with automatic text color adjustment
+- Python 3  
+- OpenCV  
+- NumPy  
+- Pandas  
+- Argparse  
 
-🛠️ Technologies Used
+---
 
-Python 3
+## 📂 Project Structure
 
-OpenCV
-
-NumPy
-
-Pandas
-
-Argparse
-
-📂 Project Structure
 Color-Detection/
 │
 ├── color_detection.py
@@ -35,17 +34,25 @@ Color-Detection/
 ├── sample_image.jpg
 └── README.md
 
-📄 colors.csv Format
+
+---
+
+## 📄 colors.csv Format
 
 The CSV file should contain color data in this format:
-
 color,color_name,hex,R,G,B
 0,Black,#000000,0,0,0
 1,White,#FFFFFF,255,255,255
-...
 
-🚀 Installation
-1️⃣ Clone the repository
+
+
+---
+
+## 🚀 Installation
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/SaiRithvik07/color-detection.git
 cd color-detection
 
