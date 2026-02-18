@@ -27,12 +27,15 @@ This project allows users to double-click on any part of an image to detect the 
 
 ## 📂 Project Structure
 
+```
 Color-Detection/
 │
 ├── color_detection.py
 ├── colors.csv
 ├── sample_image.jpg
 └── README.md
+```
+
 
 
 ---
